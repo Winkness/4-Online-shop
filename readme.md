@@ -1,7 +1,8 @@
 一个富有设计感的轻简约服装品牌网站
 
 日志更新；2020-5-28：
-穿搭灵感；inspire
+
+ 穿搭灵感；inspire
  单个商品详情：goods
  导航页：navigation
  活动分区；activity

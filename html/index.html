@@ -13,54 +13,71 @@
     div#div2{
         float: left;
         width: 13%px;
+        background-color: blue;
     }
+
+   /* .d1 {background: #A3D0C3;}*/
+.d1 input {
+  width: 60%;
+  height: 35px;
+  margin-left:30%;
+  border: 2px solid #7BA7AB;
+  border-radius: 5px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+.d1 button {
+  position: absolute; 
+  
+  right: 50px;
+  width: 42px;
+  height: 40px;
+  border: none;
+  background: #7BA7AB;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+
 </style>
 
 </head>
 <body>
     <div id="div1"><h2>Alien Members</h2></div>
-    <div id="div2"><img src="../image/designer page/logo.jpg"width="190px" height="100px"></div>
+    <div id="div2"><img src="../image/designer page/logo.jpg"width="190px" height="110px"></div>
     <div id="div3">
-        <table border="1" width="87%" height="100px" align="right">
+      <table border="1" width="87%" height="100px" align="right">
             <tr>
-                <td></td>
-                <td width="50%" height="80%">
+                <td>xxxx</td>
+                <td width="70%" height="80%">
                     <table border="1" width="100%" height="30px">
                         <tr>
                             <td><input type="button" style="color: coral;"value="EXIT"/></td>
                             <td><input type="button" style="color: coral;"value="Login"/></td>
                             <td><input type="button" style="color: coral;"value="Register"/></td>
-                            <td><img src="../image/designer page/a.jpg"width="20px" height="20px"></td>
-                            <td><img src="../image/designer page/a.jpg"width="20px" height="20px"></td>
-                            <td><img src="../image/designer page/b.jpg"width="20px" height="20px"></td>
-                            <td><img src="../image/designer page/c.jpg"width="20px" height="20px"></td>
+                            <td><img src="../image/designer page/aa.jpg"width="25px" height="25px"></td>
+                            <td><img src="../image/designer page/ab.jpg"width="25px" height="25px"></td>
+                            <td><img src="../image/designer page/ac.jpg"width="25px" height="25px"></td>
+                            <td><img src="../image/designer page/bc.jpg"width="25px" height="25px"></td>
                         </tr>
                     </table>
                 </td>
             </tr>
             <tr>
-                <td><h4>Wear a design</h4></td>
+                <td><h3>Wear a design</h3></td>
                 <td>
-                    <div>
-
-                        <input type="text" />
+                
+                        <div class="search d1">
+                            
+                            <input type="text" placeholder="The search starts here...">
+                            <button type="submit"><img src="../image/designer page/seek.jpg"width="30px" height="30px"></button>
                         
-                        <img style="width: 20px;position: absolute;right: 140px;top: 15px;" src="icon.png" />
-                        
-                        </div>
-                        
-                        
+                          </div>
+                    
                 </td>
             </tr>
         </table>
     </div>
-  <!-- <table border="1" width="100%" height="150px">
-        <tr>
-            <td>
-               
-            </td>
-            <td></td>
-        </tr>
-    </table>-->
 </body>
 </html>

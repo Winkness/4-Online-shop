@@ -1,0 +1,45 @@
+#logo > img{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 9px;
+	left: 9px;
+}
+
+#text{
+	color: #ffffff;
+	position: absolute;
+	top: 95px;
+	left: 30px;
+}
+
+#container {
+	width: 400px;
+	height: 617px;
+	overflow: hidden;
+}
+
+#LB{
+	float: left;
+	
+}
+
+#photo {
+	width: 1200px;
+	animation: switch 4s ease-out infinite alternate;
+}
+ 
+#photo > img {
+	float: left;
+	width: 400px;
+	height: 617px;
+}
+@keyframes switch {
+	0%, 40% {
+		margin-left: 0;
+	}
+	60%, 100% {
+		margin-left: -400px;
+	}
+	
+}

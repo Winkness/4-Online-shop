@@ -14,7 +14,7 @@
 	height: 450px;
 	position: absolute;
 	top: 92px;
-	right: 683.5px;
+	right: 1230.5px;
 }
 
 #s4 > img{
@@ -70,7 +70,7 @@ td{
 #text1{
     position: absolute;
 	top: 0px;
-	right: 400px;
+	right: 1000px;
 }
 
 #text2{
@@ -94,24 +94,24 @@ h6{
 #img1{
     position: absolute;
 	top: 12px;
-	right: 350px;
+	right: 950px;
 }
 
 #img2{
     position: absolute;
 	top: 12px;
-	right: 250px;
+	right: 850px;
 }
 
 #img3{
     position: absolute;
 	top: 12px;
-	right: 200px;
+	right: 800px;
 }
 #img4{
     position: absolute;
 	top: 12px;
-	right: 150px;
+	right: 750px;
 }
 
 #img5{
